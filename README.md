@@ -39,9 +39,9 @@ A comprehensive React web application for managing large CSV datasets containing
 
 2. **Install dependencies**
    ```bash
-   npm install react react-dom papaparse lucide-react
+   npm install
    # or
-   yarn add react react-dom papaparse lucide-react
+   yarn
    ```
 
 3. **Run the application**
