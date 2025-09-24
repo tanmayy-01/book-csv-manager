@@ -334,7 +334,7 @@ const App = () => {
                       <button
                         onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                         disabled={currentPage === 1}
-                        className="px-4 py-2 text-sm bg-white border border-gray-300 rounded-lg hover:bg-gray-50 disabled:bg-gray-100 disabled:cursor-not-allowed transition-colors"
+                        className="px-4 py-2 text-sm bg-white border border-gray-300 rounded-lg hover:bg-gray-50 disabled:bg-gray-100 disabled:cursor-not-allowed transition-colors cursor-pointer"
                       >
                         Previous
                       </button>
@@ -345,7 +345,7 @@ const App = () => {
                           <button
                             key={pageNum}
                             onClick={() => setCurrentPage(pageNum)}
-                            className={`px-4 py-2 text-sm rounded-lg transition-colors ${
+                            className={`cursor-pointer px-4 py-2 text-sm rounded-lg transition-colors ${
                               currentPage === pageNum
                                 ? 'bg-blue-600 text-white'
                                 : 'bg-white border border-gray-300 hover:bg-gray-50'
@@ -359,7 +359,7 @@ const App = () => {
                       <button
                         onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
                         disabled={currentPage === totalPages}
-                        className="px-4 py-2 text-sm bg-white border border-gray-300 rounded-lg hover:bg-gray-50 disabled:bg-gray-100 disabled:cursor-not-allowed transition-colors"
+                        className="px-4 py-2 text-sm bg-white border border-gray-300 rounded-lg hover:bg-gray-50 disabled:bg-gray-100 disabled:cursor-not-allowed transition-colors cursor-pointer"
                       >
                         Next
                       </button>
