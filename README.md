@@ -32,8 +32,7 @@ A comprehensive React web application for managing large CSV datasets containing
 
 1. **Clone or copy the code**
    ```bash
-   # If using as a standalone file
-   mkdir book-csv-manager
+   git clone <repository-url>
    cd book-csv-manager
    ```
 
