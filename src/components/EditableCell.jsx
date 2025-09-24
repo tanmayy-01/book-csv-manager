@@ -26,10 +26,10 @@ const EditableCell = ({ value, onSave, isModified }) => {
           autoFocus
           onKeyPress={(e) => e.key === 'Enter' && handleSave()}
         />
-        <button onClick={handleSave} className="p-1 text-green-600 hover:bg-green-50 rounded">
+        <button onClick={handleSave} className="p-1 text-green-600 hover:bg-green-50 rounded cursor-pointer">
           <Check size={14} />
         </button>
-        <button onClick={handleCancel} className="p-1 text-red-600 hover:bg-red-50 rounded">
+        <button onClick={handleCancel} className="p-1 text-red-600 hover:bg-red-50 rounded cursor-pointer">
           <X size={14} />
         </button>
       </div>
@@ -44,7 +44,7 @@ const EditableCell = ({ value, onSave, isModified }) => {
       <span className={`text-sm ${isModified ? 'text-yellow-800 font-medium' : 'text-gray-900'}`}>
         {value}
       </span>
-      <Edit3 size={12} className="opacity-0 group-hover:opacity-50 text-gray-400" />
+      <Edit3 size={12} className="opacity-0 group-hover:opacity-50 text-gray-900" />
     </div>
   );
 };
