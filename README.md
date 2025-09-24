@@ -40,15 +40,11 @@ A comprehensive React web application for managing large CSV datasets containing
 2. **Install dependencies**
    ```bash
    npm install
-   # or
-   yarn
    ```
 
 3. **Run the application**
    ```bash
-   npm start
-   # or
-   yarn start
+   npm run dev
    ```
 
 ## 📊 Expected CSV Format
